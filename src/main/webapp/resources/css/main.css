@@ -1,0 +1,86 @@
+body { 
+  background-color: #b5a789;
+  font-family:      Georgia, "Times New Roman", Times, serif;
+  font-size:        medium;
+  margin:           0px;
+}
+
+#tableContainer {
+	display: 		table;
+	border-spacing: 10px;
+}
+
+#tableRow {
+	display: table-row;
+}
+
+#indexCell {
+	display:		table-cell;
+  	padding:	    15px;
+  	vertical-align:	top;
+  	width: 			75%; 
+  	text-align:     center;
+}
+
+#CVtable{
+	padding:	    15px;
+  	vertical-align:	top;
+  	width: 			100%; 
+  	text-align:     center;
+}
+
+#header {
+	background-color:	#675c47;
+	margin:				10px 10px 0px 10px; 
+	height:           	150px;
+	font-size:          small;
+}
+
+#headerSaying {
+    display: 			table-cell;
+    background-color: 	#efe5d0;
+    width: 				30%;
+    padding: 			15px;
+    vertical-align: 	top;
+}
+
+#headerMain {
+	display: 		table-cell;
+  	background:     #efe5d0;
+  	font-size:      105%;
+  	padding:        15px;
+  	vertical-align: top;
+  	width: 			30%;
+}
+
+#footer {
+  	background-color: 	#675c47;
+  	color:            	#efe5d0;
+  	text-align:       	center;
+  	padding:          	15px;
+  	margin: 			0px 10px 10px 10px;
+  	font-size:        	90%;
+  	vertical-align: 	bottom;
+}
+
+#footer input{
+	margin: 0 auto; 
+}
+
+h1 {
+  	font-size:        120%;
+  	color:            #954b4b;
+}
+
+h2 { font-size: 110%; }
+
+a:link {
+  	color:            #b76666;
+  	text-decoration:  none;
+  	border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  	color:            #675c47;
+  	text-decoration:  none;
+	border-bottom:    thin dotted #675c47;
+}
